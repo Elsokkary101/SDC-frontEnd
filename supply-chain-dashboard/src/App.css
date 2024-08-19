@@ -1,0 +1,25 @@
+.App {
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appGlass {
+  display: grid;
+  height: 97%;
+  width: 97%;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.45);
+  overflow: auto;
+  position: relative;
+  grid-template-columns: 11rem auto 20rem;
+}
+
+h1 {
+    color: white;
+}

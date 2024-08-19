@@ -1,0 +1,18 @@
+.circleStatus {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: #00b5ff;
+}
+
+.Status {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  gap: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-left: 1rem;
+  width: 70%;
+  border-radius: 360px;;
+}
